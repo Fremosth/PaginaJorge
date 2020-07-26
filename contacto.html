@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssTurismo/formulario.css">
+    <link rel="stylesheet" href="cssTurismo/menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://biblioteca.upds.edu.bo/biblioteca/images/site/sede/cbba.png"
+        type="image/x-icon">
+    <title>Document</title>
+</head>
+<header>
+    <nav>
+        <ul class="navigation">
+             <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+             <li><a href="CochalaTur.html" id="icono-menu"><img src="imagenes/logotipo.png" alt="" width="110"></a></li>
+             <li><a href="Cochabamba.html">Cochabamba</a></li>
+             <li><a href="Quillacollo.html">Quillacollo</a></li>
+             <li><a href="Tiquipalla.html">Tiquipalla</a></li>
+             <li><a href="Sacaba.html">Sacaba</a></li>
+             <li><a href="Vinto.html">Vinto</a></li>
+             <li><a href="galeria.html">Galeria</a></li>
+             <li><a href="contacto.html">Contacto</a></li>
+         </ul>
+     </nav>
+</header>
+<body>
+    <div class="cont1">
+     <div class="form-top">
+      <h2>Contacto</h2>
+
+     </div>
+     <form class="form-reg" action="">
+      <input class="input" type="text" placeholder="&#128100;Nombre" required autofocus>
+      <input class="input" type="text" placeholder="&#128100;Apellidos" required autofocus>
+      <input class="input" type="email" placeholder="&#128231;Correo Electronico" required>
+      <input class="input" type="tel" placeholder="&#128222;Telefono" required>
+      <input class="input" type="text" placeholder="&#128273;Contraseña" required><br>
+      <input type="text" placeholder="&#128101;Tipo de usuario" list="tipouser">
+      <datalist id="tipouser">
+        <option>Administrador</option>
+        <option>Usuario</option>
+      </datalist><br>
+
+      <fieldset>
+          <legend>&#9892;Sexo <em>(Seleccione uno)</em></legend>
+          <input type="radio" name="sexo" value="F"> Femenino
+          <input type="radio" name="sexo" value="M"> Masculino
+      </fieldset> <br>
+
+      <textarea name="coment" placeholder="&#128441;Escriba sus comentarios: " cols="30" rows="10"></textarea>
+     
+
+      <div class="btn-form">
+       <input class="btn-submit" type="submit" value="ENVIAR">  
+       <input class="btn-reset" type="reset" value="LIMPIAR">
+      </div>
+
+     </form>
+    </div>
+    <footer>
+        <a href="https://www.youtube.com">Youtube</a> |       
+        <a href="https://www.facebook.com">Facebook</a> |     
+        <a href="https://www.twitter.com">Twitter</a>
+
+    </footer>
+    
+    <div class="fecha">
+       
+         <p class="smaller">Copyright -C- 2020 | Jorge Blanco P. | Cochabamba </p>
+         <script>
+            document.write(new Date().getDate()+ "/" +(new Date().getMonth()+1)+ "/" +new Date().getFullYear());
+        </script> 
+    </div>
+
+    <script src="js/menu.js"></script>  
+    <script src="js/api.js"></script>
+   </body>
+ 
+</html>
