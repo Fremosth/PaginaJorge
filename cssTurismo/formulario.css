@@ -4,13 +4,13 @@ html{
    
    }
    body{
-    background-color: #9ad1ed;
+    background-color: #2c49a8;
    }
    .cont1{
     max-width: 450px;
     height: auto;
     background-color: #efefef;
-    margin: 5% auto;
+    margin: 5% auto;    
     padding-bottom: 1rem;
    }
    .form-top{
