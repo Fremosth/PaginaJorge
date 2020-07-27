@@ -18,24 +18,24 @@
      <div class="form-top">
       <h2>Login</h2>  
      </div>
-     <form class="form-reg" action="CochalaTur.html">
+
+     <form name="form" class="form-reg" action="CochalaTur.html">
       
-      <input class="input" type="email" placeholder="&#128231;Correo Electronico" required>
+      <input name="login" class="input" type="text" placeholder="&#128231;Usuario">
       
-      <input class="input" type="text" placeholder="&#128273;Contraseña" required><br>
+      <input name="password" class="input" type="text" placeholder="&#128273;Contraseña" required><br>
   
       
-     
 
       <div class="btn-form">
-       <input class="btn-submit" type="submit" value="Entrar">  
-       
+      <input onclick="go();" class="btn-submit" type="button" value="Entrar">  
+       <input class="btn-submit" type="submit" value="Registrarse">  
       </div>
 
      </form>
     </div>
     
-
+<script type="text/javascript" src="/js/login.js"></script>
     <script src="js/menu.js"></script>  
     <script src="js/api.js"></script>
    </body>
