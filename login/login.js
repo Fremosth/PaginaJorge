@@ -3,6 +3,6 @@ function go(){
         document.form.submit();
     }
     else{
-        alert("Ingrese un Nombre de usuario y Contraseña validos");
+        alert("Nombre de usuario y Contraseña incorrectos");
     }
 }
